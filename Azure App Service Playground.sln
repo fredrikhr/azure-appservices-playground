@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "..root", "..root", "{8D1F5117-2A8F-453E-90FD-5AD6AB1E137D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Meta.props = Directory.Meta.props
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{EB3DD655-9914-4779-A742-B2568CD3F1C6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD2395BA-44E7-4F11-BB73-AC23FC45C293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.AzureAppServicePlayground.MsiUserAuthWebApp", "src\FredrikHr.AzureAppServicePlayground.MsiUserAuthWebApp\FredrikHr.AzureAppServicePlayground.MsiUserAuthWebApp.csproj", "{3EB7BE36-42C5-417C-AD31-78C9A07F4815}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EA40BBB-A853-458C-B291-7B6394EDDB92}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|x64.Build.0 = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Debug|x86.Build.0 = Debug|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|x64.ActiveCfg = Release|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|x64.Build.0 = Release|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|x86.ActiveCfg = Release|Any CPU
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EB7BE36-42C5-417C-AD31-78C9A07F4815} = {CD2395BA-44E7-4F11-BB73-AC23FC45C293}
+	EndGlobalSection
+EndGlobal

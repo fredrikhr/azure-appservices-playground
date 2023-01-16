@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "codezombiech.gitignore",
+    "ms-dotnettools.csharp",
+    "redhat.vscode-xml"
+  ]
+}
